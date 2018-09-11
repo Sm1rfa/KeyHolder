@@ -7,9 +7,9 @@ namespace KeyHolder.Utils
 {
     public static class SecureHelper
     {
-        private static readonly string PasswordHash = "p@ssw0rd";
-        private static readonly string SaltKey = "?s@ltk3yStr0nG!";
-        private static readonly string ViKey = "b3b3@key!##66beb";
+        private static readonly string PasswordHash = "";
+        private static readonly string SaltKey = "";
+        private static readonly string ViKey = "";
 
         // todo: try with bytes
         public static string EncryptString(string plainText)
